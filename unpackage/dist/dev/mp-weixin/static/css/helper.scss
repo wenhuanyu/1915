@@ -1,0 +1,109 @@
+// 颜色
+$color-3: #333333;
+$color-6: #666666;
+$color-7: #787878;
+$color-8: #808080;
+$color-d: #D8D8D8;
+$color-f: #FFFFFF;
+$color-9: #999999;
+$color-c: #cdcdcd;
+$color-b5:#34BCB5;
+
+// 布局
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex_between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex-column {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.relative {
+    position: relative;
+}
+
+// 字体
+.bold {
+    font-weight: bold;
+}
+
+// 字号
+.fs24 {
+    font-size: 24rpx;
+}
+
+.fs26 {
+    font-size: 26rpx;
+}
+
+.fs28 {
+    font-size: 28rpx;
+}
+
+.fs30 {
+    font-size: 30rpx;
+}
+
+.fs32 {
+    font-size: 32rpx;
+}
+
+// 间距
+.mt-10 {
+    margin-top: 10rpx;
+}
+
+.mb-10 {
+    margin-bottom: 10rpx;
+}
+.mb-0 {
+	margin-bottom: 0!important;
+}
+
+.ml-10 {
+    margin-left: 10rpx;
+}
+.ml-20 {
+    margin-left: 20rpx;
+}
+
+.mr-10 {
+    margin-right: 10rpx;
+}
+
+.mt-20 {
+    margin-top: 20rpx;
+}
+
+.mb-20 {
+    margin-bottom: 20rpx;
+}
+.mb-10 {
+    margin-bottom: 10rpx;
+}
+
+.ml-20 {
+    margin-left: 20rpx;
+}
+
+.mr-20 {
+    margin-right: 20rpx;
+}
+.mr-60 {
+	margin-right: 60rpx;
+}
+.ptb-n{
+	padding-top: 0!important;
+	padding-bottom: 0!important;
+}
+
+.cl {
+	color: $color-9;
+}

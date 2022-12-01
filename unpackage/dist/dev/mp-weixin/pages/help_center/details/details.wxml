@@ -1,0 +1,1 @@
+<view><view class="container" style="border-bottom:2rpx solid #E5E5E5;font-size:32rpx;">{{type_name}}</view><view class="container" style="font-size:24rpx;color:$color-6;"><rich-text nodes="{{content}}"></rich-text></view></view>

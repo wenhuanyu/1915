@@ -1,0 +1,410 @@
+{
+    "pages": [
+		{
+        "path": "pages/index/index",
+        "style": {
+            "navigationBarTitleText": "管理首页",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#2E74F4",
+            "navigationBarTextStyle": "white"
+        }
+    },
+	{
+        "path": "pages/user/user",
+        "style": {
+            "navigationBarTitleText": "我的",
+            "enablePullDownRefresh": false
+        }
+    }, {
+        "path": "pages/login/login",
+        "style": {
+            "navigationBarTitleText": "登录",
+            "enablePullDownRefresh": false
+        }
+    }, 
+	{
+        "path": "pages/stock/stock",
+        "style": {
+            "navigationBarTitleText": "库存管理",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#2578FF",
+            "navigationBarTextStyle": "white"
+        }
+    },
+	{
+            "path" : "pages/customer/customer/customer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/supplier/supplier/supplier",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "供应商管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/supplier/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加供货商家",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/diannao/diannao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "电脑端登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/help_center/help_center/help_center",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "帮助中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/outbound/outbound/outbound",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "出库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ruku/ruku/ruku",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "入库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ruku/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "入库商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/outbound/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "出库商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/outbound/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加出库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ruku/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加入库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/customer/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加客户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/inventory/inventory/inventory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盘点",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/inventory/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盘点详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/inventory/pandianzhong/pandianzhong",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盘点中",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/commodity_unit/commodity_unit/commodity_unit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "计量单位管理",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2E74F4",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/commodity_unit/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加单位",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加商品",
+                "enablePullDownRefrsesh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/warehouse/warehouse/warehouse",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "仓库管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/warehouse/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加仓库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods_category/goods_category/goods_category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品分类管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods_category/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/results/results/results",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "业绩统计",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578FF",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/profits/profits/profits",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "利润统计",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578FF",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公司设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/operation/operation/operation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "操作记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/operation/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/employees/employees/employees",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "员工管理",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578FF",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/employees/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "员工管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/help_center/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/transfers/transfers/transfers",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "调拨",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/procurement/procurement/procurement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "采购审核",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/procurement/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "采购申请详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/procurementAdd/procurementAdd/procurementAdd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "采购申请",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/procurementAdd/procurementList/procurementList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "采购申请",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/procurementAdd/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "采购申请详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#FFFFFF",
+        "app-plus": {
+            "background": "#efeff4"
+        }
+    },
+    "tabBar": {
+        "color": "#D0D0D9",
+        "selectedColor": "#2578FF",
+        "borderStyle": "black",
+        "backgroundColor": "#FFFFFF",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "iconPath": "static/image/index.png",
+                "selectedIconPath": "static/image/index-active.png",
+                "text": "首页"
+            },
+			// {
+			// 	"pagePath": "pages/index/index",
+			// 	"iconPath": "static/image/camera-zhu.png",
+			// 	"selectedIconPath": "static/image/camera-zhu.png"
+			// 	// "text": ""
+			// },
+            {
+                "pagePath": "pages/user/user",
+                "iconPath": "static/image/user.png",
+                "selectedIconPath": "static/image/user-active.png",
+                "text": "我的"
+            }
+        ]
+    }
+}

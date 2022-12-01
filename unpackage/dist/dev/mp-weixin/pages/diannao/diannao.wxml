@@ -1,0 +1,1 @@
+<view class="container"><view class="add_title">电脑端入口说明</view><view class="text">1.推荐使用Chrome浏览器、Firefox浏览器</view><view class="text">2.进行出入库操作和报表的打印</view><button data-event-opts="{{[['tap',[['copy',['$event']]]]]}}" class="btn-submit" bindtap="__e">复制网址</button></view>

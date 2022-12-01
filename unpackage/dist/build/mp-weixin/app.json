@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/login/login",
+    "pages/stock/stock",
+    "pages/customer/customer/customer",
+    "pages/supplier/supplier/supplier",
+    "pages/supplier/add/add",
+    "pages/diannao/diannao",
+    "pages/help_center/help_center/help_center",
+    "pages/outbound/outbound/outbound",
+    "pages/ruku/ruku/ruku",
+    "pages/ruku/details/details",
+    "pages/outbound/details/details",
+    "pages/outbound/add/add",
+    "pages/ruku/add/add",
+    "pages/customer/add/add",
+    "pages/inventory/inventory/inventory",
+    "pages/inventory/details/details",
+    "pages/inventory/pandianzhong/pandianzhong",
+    "pages/commodity_unit/commodity_unit/commodity_unit",
+    "pages/commodity_unit/add/add",
+    "pages/goods/goods/goods",
+    "pages/goods/add/add",
+    "pages/warehouse/warehouse/warehouse",
+    "pages/warehouse/add/add",
+    "pages/goods_category/goods_category/goods_category",
+    "pages/goods_category/add/add",
+    "pages/results/results/results",
+    "pages/profits/profits/profits",
+    "pages/setting/setting/setting",
+    "pages/operation/operation/operation",
+    "pages/operation/details/details",
+    "pages/employees/employees/employees",
+    "pages/employees/add/add",
+    "pages/help_center/details/details",
+    "pages/transfers/transfers/transfers",
+    "pages/procurement/procurement/procurement",
+    "pages/procurement/details/details",
+    "pages/procurementAdd/procurementAdd/procurementAdd",
+    "pages/procurementAdd/procurementList/procurementList",
+    "pages/procurementAdd/details/details"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#D0D0D9",
+    "selectedColor": "#2578FF",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/index.png",
+        "selectedIconPath": "static/image/index-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/image/user.png",
+        "selectedIconPath": "static/image/user-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}
